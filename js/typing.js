@@ -1,12 +1,24 @@
 const strs=[
-    'Google Chrome',
-    'Face Book',
-    'Hello World',
     'What the fuck!',
     'God Bless You',
     'No Way!',
     'Holy Poop!',
-    'Holy Shit!'
+    'Holy Shit!',
+    'What is going on?',
+    'Thank You',
+    'Shall We Dance?',
+    'I don\'t fear anything. can you say the same?',
+    'Here goes nothing',
+    'Goodnight beautiful',
+    'Every decision counts',
+    'I got you. Thank you so much',
+    'You want some? Come get some!',
+    'Wanna win? Do what I do',
+    'You know what I look like - come find me',
+    'You can do everything you want',
+    'Seeing is believing',
+    'A hero is a man who does what he can'
+
 ];
 
 const randoms =[];
