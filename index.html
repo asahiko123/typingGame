@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイピングゲーム</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <style>
+        #typed {
+            color:red;
+            font-size: 70px;
+            font-family: 'Yu Mincho','YuMincho';
+        }
+        #untyped{
+            font-size: 40px;
+            font-family: 'Yu Mincho','YuMincho';
+        }
+
+        @font-face {
+            font-family: 'DSEG';
+            src: url('./DSEG7-Classic/DSEG7Classic-Regular.ttf');
+        }
+
+        #times{
+            font-family: 'DSEG';
+        }
+
+    
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>フルハウス用タイピングゲーム</h1>
+        </header>
+        <main class="main">
+            <div class="contents">
+                <div class="display">
+                    <div id="times">00:00:00.000</div>
+                    <span id="typed"></span><span id="untyped"></span>
+                    <div id="result"></div>
+                </div>
+                <div class="control">
+                    <input type="button" class="btn btn-primary" id="start" value="開始">
+                    <!-- <input type="button" class="btn btn-primary"id="stop" value="ストップ"> -->
+                    <input type="button" class="btn btn-primary"id="reset" value="リセット">
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <span></span>
+        </footer>
+    </div>
+    <script src="./js/timer.js"></script>
+    <script src="./js/typing.js"></script>
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/typing.css" rel="stylesheet">
+</body>
+</html>
